@@ -1,0 +1,339 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-image: url("https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.titulo{
+    padding: 30px;
+    background-color: lightcoral;
+    text-align: center;
+    height: 20vh;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #6a4c93;
+    opacity: 0.9;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+nav li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row;
+    color: white;
+}
+.txt-bienvenida{
+    padding: 15px;
+    color: white;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+}
+.img-bienvenida,.txt-bienvenida{
+    width: 50%;
+    height: 80vh;
+    text-align: center justify;
+    padding: 30px;
+}
+.img-bienvenida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perfil{
+    width: 75%;
+    height: 75vh;
+}
+h1{
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 29ch;
+    animation: typing 5s infinite steps(32),blink .5s infinite;
+    overflow :hidden;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+@keyframes typing{
+  from{ width:0}
+}
+
+@keyframes blink{
+  50% {border-color: transparent}
+}
+#acerca{
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+h2{
+    padding: 15px;
+}
+.acerca-de-mi{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: beige;
+    height: 80vh;
+    padding: 40px;
+}
+.imagen,.inf{
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.img-acerca{
+    width: 90%;
+    height: 380px;
+    
+    gap: 5px;
+    border: 1px solid black;
+}
+p{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.txt-habilidades{
+    margin-top: 30px;
+    text-align: center;
+}
+.habilidades{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+    gap: 25px;
+}
+.habi1,.habi2,.habi3{
+    margin-top: 25px;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.8);
+}
+span{
+    font-size: 1.2em;
+
+}
+.img-habi3{
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 175px;
+    left: 105px;
+}
+.fondo2{
+    background-image: url("https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.fondo-intereses{
+    background-color: beige;
+}
+.txt-intereses{
+    margin-top: 25px;
+    text-align: center;
+}
+.intereses{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 25px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.box1{
+    width: 25%;
+    object-fit: cover;
+
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    padding: 15px;
+}
+.txt-img{
+    width: 100%;
+    height: 30px;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.fondo3{
+    background-image: url("https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.txt-contacto{
+    margin-top: 25px;
+    text-align: center;
+}
+.contacto{
+    margin-top: 25px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.txt-info{
+    text-align: justify;
+    padding: 70px;
+}
+#correo-electronico{
+    color: purple;
+}
+input{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+    color: black;
+    border: 1.5px solid #ccc;
+    outline: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+.textarea-formulario{
+    width: 330px;
+    
+}
+textarea{
+    resize: none;
+    width: 300px;
+    border: 1.5px solid #ccc;
+    outline: none;
+    font-size: 1.2em;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    background-color: beige;
+    font-size: 1em;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+.formulario-contacto{
+    height: 90vh;
+}
+.txt-info,.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+#info-contacto{
+    font-size: 1.5em;
+}
+.info{
+    font-size: 1.5em;
+    text-align: center justify;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 25px;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    padding: 25px;
+}
+.iconos{
+    margin-top: 10px;
+}
+.fa-brands{
+    padding: 10px;
+    text-align: center;
+    gap: 20px;
+}
+.fa-github{
+    color: white;
+}
+
+
+
+
