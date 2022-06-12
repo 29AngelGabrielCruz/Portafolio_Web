@@ -45,6 +45,12 @@ nav li a{
     font-weight: bold;
 }
 
+label{
+    display: none;
+}
+.menu-hmg{
+    display: none
+}
 .fondo{
     background-image: url("https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-attachment: fixed;
@@ -379,6 +385,149 @@ footer{
 
 .fa-github{
     color: white;
+}
+
+/*Diseño Responsive*/
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    nav{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.4em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    .perfil{
+        width: 200px;
+        height: 65vh;
+    }
+    .img-acerca{
+        width: 90%;
+        height: 340px;
+    }
+    .img-habi3{
+        padding: 10px;
+        height: 100px;
+        top: 270px;
+        left: 50px;
+    }
+    .box1{
+        width: 40%;
+    }
+    .txt-info{
+        width: 100%;
+    }
+    .contacto{
+        height: 130vh;
+    }
+    button{
+        border: none;
+    }
+    .fac-brands{
+        padding: 20px;
+    }
+}
+
+/*Phone*/
+@media screen and (max-width: 432px){
+    nav{
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    nav li{
+        gap: 50px;
+        border-right: 2px solid white;
+    }
+    nav li a{
+        padding: 10px 5px;
+    }
+    .bienvenida{
+        height: 120vh;
+    }
+    .txt-bienvenida{
+        width: 100%;
+    }
+    h1{
+        font-size: 1em;
+    } 
+    h2{
+        font-size: 1em;
+    }
+    .img-bienvenida{
+        position: absolute;
+    }
+    .perfil{
+        position: relative;
+        top: 200px;
+        left: 50%;
+    }
+    .acerca-de-mi{
+        margin-top: 15px;
+        padding: 15px;
+        height: 110vh;
+    }
+    .imagen,.inf{
+        height: 200px;
+        padding: 5px;
+    }
+    .img-acerca{
+        width: 90%;
+        height: 300px;
+    }
+    .habilidades{
+        margin-top: 15px;
+        color: black;
+        gap: 30px;
+    }
+    .fondo2{
+        background-image: none;
+        background-color: #b57ba6;
+    }
+    .habi1,.habi2,.habi3{
+        width: 75%;
+        font-size: 1em;
+    }
+    .img-habi3{
+        height: 180px;
+        top: 185px;
+        left: 27%;
+    }
+    .intereses{
+        height: 250vh;
+        margin-top: 15px;
+    }
+    .box1{
+        width: 100%;
+    }
+    img{
+        padding: 10px;
+    }
+    .info{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .contacto{
+        margin-top: 15px;
+    }
+    .contacto-caja{
+        margin-bottom: 15px;
+    }
+    footer{
+        padding: 30px;
+        font-size: 1.3em;
+        text-align: justify;
+        margin-top: 15px;
+    }
+    .fa-brands{
+        height: 35px;
+        width: 35px;
+    }
 }
 
 
