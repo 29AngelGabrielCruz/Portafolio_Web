@@ -478,12 +478,13 @@ footer{
     }
     .img-acerca{
         width: 90%;
-        height: 300px;
+        height: 250px;
     }
     .habilidades{
         margin-top: 15px;
         color: black;
-        gap: 30px;
+        gap: 15px;
+        height: 250vh;
     }
     .fondo2{
         background-image: none;
@@ -511,6 +512,10 @@ footer{
     .info{
         width: 100%;
         font-size: 1.2em;
+    }
+    .fondo3{
+        background-image: none;
+        background-color: aquamarine;
     }
     .contacto{
         margin-top: 15px;
